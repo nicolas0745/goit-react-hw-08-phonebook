@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.container p {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #171a2393;
+}

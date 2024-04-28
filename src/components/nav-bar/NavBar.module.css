@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  border-bottom: 3px solid #01549d81;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  height: 60px;
+  max-width: 1200px;
+  align-self: center;
+}
+
+.subMenu {
+  /* align-self: flex-end; */
+  display: flex;
+  gap: 5px;
+}
+
+.nav span {
+  font-weight: 700;
+  font-size: 30px;
+  color: #0a47e389;
+}
